@@ -8,3 +8,4 @@ Hal yang perlu diuji :
 3. menguji perpindahan antar website
 
 Hal yang perlu di perbaiki : 
+1. memperbaiki isu dengan gambar di website
