@@ -1,10 +1,10 @@
-Hal yang perlu diuji di websiteku :
-1. menguji perpindahan file html
-2. menguji pengiriman teks yang dilakukan oleh user
-3. menguji perpindahan antar website
-
 Hal yang perlu ditambahkan : 
 1. menambahkan css
 2. menambahkan cara untuk mengukur penggunaan energi di rumah
+
+Hal yang perlu diuji :
+1. menguji perpindahan file html
+2. menguji pengiriman teks yang dilakukan oleh user
+3. menguji perpindahan antar website
 
 Hal yang perlu di perbaiki : 
