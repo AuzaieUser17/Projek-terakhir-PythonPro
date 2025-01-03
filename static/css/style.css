@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    background-color : #3b5d63;
+    color: #111111;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("../img/back index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50vh 50px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header_box_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+    background-color: #0a3142d5;
+    text-align: center;
+    color: #f0f8ff;
+    padding: 20px 440px;
+}
+
+.header_box_text_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+    background-color: #0a3142d5;
+    text-align: center;
+    color: #f0f8ff;
+    padding: 20px 350px;
+}
+
+.header_index_text {
+    font-size: 50px;  
+}
+
+main {
+    padding: 0 30px 100px;
+}
+
+.main_title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main_title_margin {
+    margin-bottom: 50px;
+}
+
+.main_title_text {
+    line-height: 2;
+    font-size: 40px;
+}
+
+.main_text {
+    line-height: 1;
+    font-size: 25px;
+}
+
+.main_link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 0;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #0e1b36;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hasil_main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.images {
+    text-align: center;
+    line-height: 2
+}
+
+.images_text {
+    font-size: 35px;
+}
+
+.hasil_img {
+    object-fit: contain;
+    width: 300px;
+}
+
+.list_title {
+    line-height: 2;
+    font-size: 45px;
+    text-align: center;
+}
+
+.list_index {
+    display: grid;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.list_index_text {
+    font-size: 25px;
+    line-height: 1;
+}
+
+.list {
+    text-align: right;
+    line-height: 1.5;
+}
+
+.list_index a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 24px;
+    border: 5px solid #3b74a6;
+}
+
+.list_item a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 24px;
+    border: 5px solid #3b74a6;
+    transition: 0.2s;
+}
+
+.list_item a:hover {
+    box-shadow: 1px 1px 4px 4px #5ba2e0;
+}
+
+.item_img {
+    object-fit: contain;
+    width: 150px;
+}
+
+.item_img_index {
+    object-position: center;
+    width: 500px;
+}
+
+.item_img_index_2 {
+    object-position: center;
+    width: 500px;
+}
+
+.energi_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.energi {
+    line-height: 5;
+    font-size: 25px;
+    text-align: center;
+}
+
+.more_info {
+    text-align: center;
+    line-height: 2;
+}
+
+.more_list {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
+}
+
+.forum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.hasil_forum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    line-height: 1;
+}
+
+.user input {
+    padding: 10px;
+    border: 1px solid #3b74a6;
+    background: inherit;
+    border-radius: 5px;
+    font: inherit;
+    width: 100%;
+    color: #3b74a6;
+}
+
+.user input:focus,
+.user input:active {
+    border: 1px solid #3b74a6;
+    outline: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.user_info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.alamat_tanggal {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tombol {
+    width: 10%;
+    padding: 10px;
+    min-width: 300px;
+    cursor: pointer;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background: #0e1b36;
+    font: inherit;
+    color: #f0f8ff;
+}
+
+.footer_info {
+    line-height: 1;
+    text-align: center;
+    font-size: 15px;
+}

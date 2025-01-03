@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/css/style.css"> 
+    <title>Hasil forum</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_box_text_2">
+          <h1>Hitung efisiensi energi rumahmu!</h1>
+          <p>Ambil inisiatif dan selesaikan masalah konsumsi energi yang berlebihan!</p>
+        </div>
+    </header>
+    {% block content %}
+    <form class="hasil_forum">
+        <h1>Terima kasih telah mengisi formulir!</h1>
+        <p>Nama: {{ name }}</p>
+        <p>Email: {{ email }}</p>
+        <p>Alamat: {{ address }}</p>
+        <p>Tanggal pertemuan: {{ date }}</p>
+    </form>
+    {% endblock %}
+    <footer class="footer_info">
+        <p>Website ini dibuat oleh Auzaie Faid Wafi</p>
+    </footer>
+</body>
+</html>

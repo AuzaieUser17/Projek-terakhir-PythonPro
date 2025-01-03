@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Perhitungan efisiensi energi rumah anda</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header_box_text_2">
+      <h1>Hitung efisiensi energi rumahmu!</h1>
+      <p>Ambil inisiatif dan selesaikan masalah konsumsi energi yang berlebihan!</p>
+    </div>
+  </header>
+  <main>
+    {% block content %}
+    <h2 class="main_title">Sebutkan jumlah perangkat yang menggunakan listrik:</h2>
+    <ul class="energi_list" id="list">
+      <li class="list_item">
+        <a href={{lights + '/4'}}>
+          <img class="item_img" src="../static/img/battery.svg" alt="battery">
+          <span>3-5 perangkat</span></a>
+      </li>
+      <li class="list_item">
+        <a href={{lights + '/7'}}>
+          <img class="item_img" src="../static/img/battery.svg" alt="battery">
+          <span>6-8 perangkat</span></a>
+      </li>
+      <li class="list_item">
+        <a href={{lights + '/10'}}>
+          <img class="item_img" src="../static/img/battery.svg" alt="battery">
+          <span>10+ perangkat</span></a>
+      </li>
+      <li class="list_item">
+        <a href={{lights + "/9"}}>
+          <img class="item_img" src="../static/img/battery.svg" alt="battery">
+          <span>Perancangan alat ramah lingkungan</span></a>
+      </li>
+    </ul>
+    {% endblock %}
+  </main>
+  <footer class="footer_info">
+    <p>Website ini dibuat oleh Auzaie Faid Wafi</p>
+  </footer>
+</body>
+</html>
